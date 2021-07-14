@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>KEIO Murakami Lab. 研究テーマ</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="慶應義塾大学 村上俊之研究室　研究テーマ">
+<meta name="keywords" content="">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/openclose.js"></script>
+<script src="js/fixmenu.js"></script>
+<script src="js/fixmenu_pagetop.js"></script>
+<script src="js/ddmenu_min.js"></script>
+<script src="js/sidemenu_view.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<div id="container">
+<!---------------------------　ヘッダー　始まり　-------------------------->
+<header>
+<script src="js/include_headerlogo.js"></script>
+<div id="inc_headerlogo"></div> <script src="js/include_headerlogo.js"></script>  <!--　ヘッダーロゴ画像の変更は　include_headerlogo.js　から-->
+</header>
+<!---------------------------　ヘッダー　終わり　-------------------------->
+
+<!---------------------------　メニューバー　読み込み　-------------------------->
+<!--　デザイン変更は　style.css から，　メニュー内容の変更は　include_headermenu.js　から　-->
+<div id="inc_headermenu"></div>
+<script src="js/include_headermenu.js"></script> 
+<noscript>
+<p id="alart">
+お使いのブラウザでJavaScriptが無効なためページを正常に表示できません。<br>
+Please enable JavaScript in order to view this content, We're sorry. 
+</p>
+</noscript>
+<!---------------------------　メニューバー　終わり　-------------------------->
+
+<!---------------------------　メサイドニュー 始まり　-------------------------->
+<div id="sidemenu"><ul>
+<li><a href="#kengaku">研究室見学</a></li>
+<li><a href="#setsumei">研究室説明会</a></li>
+<li><a href="#schedules">スケジュール</a></li>
+</ul></div>
+<!---------------------------　メサイドニュー　終わり　-------------------------->
+
+<div id="contents">
+
+<div class="inner">
+
+<section>
+
+<!---------------------------　研究室見学 始まり　-------------------------->
+<h2>研究室案内</h2>
+
+
+<div class="list-column-container">
+<div class="list-column-2 info2"><span id="kengaku" class="link"></span>
+<h5>研究室見学について</h5>
+<div>
+<p>村上研究室に興味があるSD工学科の学生はお気軽に研究室までどうぞ。研究室見学をしたい場合や研究テーマなどについて気になる点があれば、以下のメールアドレスまでご連絡ください。</p>
+</div>
+<div class="email">森下（M1）：morishita＠sum.sd.keio.ac.jp</div>
+</div>
+
+<div class="list-column-2 info2"><span id="setsumei" class="link"></span>
+<h5>研究室説明会について</h5>
+<div>
+<p>詳細が決まり次第、こちらのページに掲載します。</p>
+</div>
+</div>
+</div>
+
+<div class="info1">
+<div>
+<h3>村上研究室での研究</h3>
+<p>村上研では人とロボットの協調をテーマとした研究をしています。基本的には自由にテーマを決定できます。また、目的に応じて自分でロボットを作ることも可能です。研究には情熱と根性が必要です。何事もあきらめない人、体力に自信がある人、様々な物事に好奇心・愛情の持てる人、大歓迎です。</p>
+<p class="btn2"><a href="theme.html">研究テーマを詳しくみる</a></p>
+</div>
+</div>
+<!---------------------------　研究室見学 始まり　-------------------------->
+<!---------------------------　年間スケジュール 始まり　-------------------------->
+<span id="schedules" class="link"></span>
+<h2>年間スケジュール</h2>
+
+<div class="list-column-container">
+<div class="list-column">
+<div class="schedule">
+<h4>B4の一年間</h4>
+<TABLE>
+<TR>
+<TD class="month top"><B>月</B></TD>
+<TD  class="top gap"></TD>
+<TD colspan=4 class="top col3"><B>スケジュール</B></TD>
+</TR>
+<TR>
+<TD rowspan=4  class="month">3月</TD>
+<TD><BR></TD>
+<TD rowspan=3 ><BR></TD>
+<TD rowspan=4 class="exp">
+<label>
+<span><b>プログラミング演習</b><h5>(クリックで詳細)</h5></span>
+<input type="checkbox" name="checkbox">
+<div id="popup"><b>プログラミング演習</b><p>ロボットを制御する際に使うC言語の学習。春休みの間に、自宅で演習プログラムを作成します。</p><h5>(クリックで閉じる)</h5></div>
+</label>
+<b id="hide">プログラミング演習</b>
+<p id="hide">ロボットを制御する際に使うC言語の学習。春休みの間に、自宅で演習プログラムを作成します。</p>
+</TD>
+<TD class="col3"></TD>
+</TR>
+<TR>
+<TD><BR></TD>
+<TD class="col3"><BR></TD>
+</TR>
+<TR>
+<TD><BR></TD>
+<TD class="col3 exp2">追コン</TD>
+</TR>
+<TR>
+<TD><BR></TD>
+<TD rowspan=9 class="exp">
+<label>
+<span><b>全体輪講</b><h5>(クリックで詳細)</h5></span>
+<input type="checkbox" name="checkbox">
+<div id="popup"><b>全体輪講</b><p>日本語及び英語のテキストを用いて、制御に関する基礎知識を身に付けます。毎週決められた範囲を読み、週に一度の輪講で発表及びディスカッションを行います。</p><h5>(クリックで閉じる)</h5></div>
+</label>
+<b id="hide">全体輪講</b>
+<p id="hide">日本語及び英語のテキストを用いて、制御に関する基礎知識を身に付けます。毎週決められた範囲を読み、週に一度の輪講で発表及びディスカッションを行います。</p>
+</TD>
+<TD class="col3"></TD>
+</TR>
+<TR>
+<TD rowspan=4  class="month">4月</TD>
+<TD><BR></TD>
+<TD rowspan=4 class="exp">
+<label><span><b>シミュレーション課題</b><h5>(クリックで詳細)</h5></span>
+<input type="checkbox" name="checkbox">
+<div id="popup"><b>シミュレーション課題</b><p>研究の一段階であるシミュレーションを、課題に沿って学びます。目標は2リンクのマニピュレータに目標軌道を描かせることです。</p><h5>(クリックで閉じる)</h5></div>
+</label>
+<b id="hide">シミュレーション課題</b>
+<p id="hide">研究の一段階であるシミュレーションを、課題に沿って学びます。目標は2リンクのマニピュレータに目標軌道を描かせることです。</p>
+</TD>
+<TD  class="col3"><BR></TD>
+</TR>
+<TR>
+<TD><BR></TD>
+<TD class="col3"><BR></TD>
+</TR>
+<TR>
+<TD><BR></TD>
+<TD class="col3 exp2">新歓</TD>
+</TR>
+<TR>
+<TD><BR></TD>
+<TD class="col3"><BR></TD>
+</TR>
+<TR>
+<TD rowspan=4  class="month">5月</TD>
+<TD><BR></TD>
+<TD rowspan=5><BR></TD>
+<TD class="col3 exp2">BBQ</TD>
+</TR>
+<TR>
+<TD><BR></TD>
+<TD class="col3"><BR></TD>
+</TR>
+<TR>
+<TD><BR></TD>
+<TD class="col3"><BR></TD>
+</TR>
+<TR>
+<TD><BR></TD>
+<TD class="col3"><BR></TD>
+</TR>
+<TR>
+<TD rowspan=4  class="month">6月</TD>
+<TD><BR></TD>
+<TD><BR></TD>
+<TD class="col3"><BR></TD>
+</TR>
+<TR>
+<TD><BR></TD>
+<TD colspan=2><BR></TD>
+<TD class="col3"><BR></TD>
+</TR>
+<TR>
+<TD><BR></TD>
+<TD colspan=2 rowspan=5 class="exp">
+<label>
+<span><b>班別輪講</b><h5>(クリックで詳細)</h5></span>
+<input type="checkbox" name="checkbox">
+<div id="popup"><b>班別輪講</b><p>6月初めに、各自が卒業研究で扱うテーマを決め、それに応じて班分けを行います。週に一度、そのテーマの研究に関連する英語の論文を探し、内容をまとめて班別輪講で発表、ディスカッションを行います。</p><h5>(クリックで閉じる)</h5></div>
+</label>
+<b id="hide">班別輪講</b>
+<p id="hide">6月初めに、各自が卒業研究で扱うテーマを決め、それに応じて班分けを行います。週に一度、そのテーマの研究に関連する英語の論文を探し、内容をまとめて班別輪講で発表、ディスカッションを行います。</p>
+<!--<FONT class="font-8" color=#808080></FONT>--></TD>
+<TD class="col3"><BR></TD>
+</TR>
+<TR>
+<TD><BR></TD>
+<TD class="col3"><BR></TD>
+</TR>
+<TR>
+<TD rowspan=4  class="month">7月</TD>
+<TD><BR></TD>
+<TD class="col3"><BR></TD>
+</TR>
+<TR>
+<TD><BR></TD>
+<TD class="col3"><BR></TD>
+</TR>
+<TR>
+<TD><BR></TD>
+<TD class="col3"><BR></TD>
+</TR>
+<TR>
+<TD><BR></TD>
+<TD colspan=2 rowspan=3 class="exp">
+<label>
+<span><b>SUM合宿準備</b><h5>(クリックで詳細)</h5></span>
+<input type="checkbox" name="checkbox">
+<div id="popup"><b>SUM合宿準備</b><p>班別輪講で扱った論文の中から特に質の高い論文を選び、SUM合宿での発表の準備を行います。</p><h5>(クリックで閉じる)</h5></div>
+</label>
+<b id="hide">SUM合宿準備</b>
+<p id="hide">班別輪講で扱った論文の中から特に質の高い論文を選び、SUM合宿での発表の準備を行います。</p>
+</TD>
+<TD class="col3"><BR></TD>
+</TR>
+<TR>
+<TD rowspan=4 class="month">8月</TD>
+<TD><BR></TD>
+<TD class="col3"><BR></TD>
+</TR>
+<TR>
+<TD><BR></TD>
+<TD class="col3"><BR></TD>
+</TR>
+<TR>
+<TD><BR></TD>
+<TD colspan=2 align="center" bgcolor=#eeeeee class="exp"><b>SUM合宿（村上・西・野崎研究室合同）</b></TD>
+<TD class="col3"><BR></TD>
+</TR>
+<TR>
+<TD><BR></TD>
+<TD colspan=2 rowspan=3><BR></TD>
+<TD class="col3"><BR></TD>
+</TR>
+<TR>
+<TD rowspan=4  class="month">9月</TD>
+<TD><BR></TD>
+<TD class="col3"><BR></TD>
+</TR>
+<TR>
+<TD><BR></TD>
+<TD class="col3"><BR></TD>
+</TR>
+<TR>
+<TD><BR></TD>
+<TD colspan=2 rowspan=6 class="exp">
+<label>
+<span><b>卒業研究</b><h5>(クリックで詳細)</h5></span>
+<input type="checkbox" name="checkbox">
+<div id="popup"><b>卒業研究</b><p>先生や大学院生とディスカッションを繰り返しながら、各自の卒業研究を進めます。目標の設定、理論の構築、シミュレーション、実験、論文執筆という流れです。</p><h5>(クリックで閉じる)</h5></div>
+</label>
+<b id="hide">卒業研究</b>
+<p id="hide">先生や大学院生とディスカッションを繰り返しながら、各自の卒業研究を進めます。目標の設定、理論の構築、シミュレーション、実験、論文執筆という流れです。</p>
+</TD>
+<TD class="col3"><BR></TD>
+</TR>
+<TR>
+<TD><BR></TD>
+<TD class="col3"><BR></TD>
+</TR>
+<TR>
+<TD rowspan=4  class="month">10月<BR>～<BR>1月</TD>
+<TD><BR></TD>
+<TD class="col3"><BR></TD>
+</TR>
+<TR>
+<TD><BR></TD>
+<TD class="col3"><BR></TD>
+</TR>
+<TR>
+<TD><BR></TD>
+<TD class="col3 exp2">忘年会</TD>
+</TR>
+<TR>
+<TD><BR></TD>
+<TD class="col3"><BR></TD>
+</TR>
+<TR>
+<TD rowspan=4  class="month bottom">2月</TD>
+<TD><BR></TD>
+<TD colspan=2 class="exp"><b>卒論発表</b></TD>
+<TD class="col3"><BR></TD>
+</TR>
+<TR>
+<TD><BR></TD>
+<TD colspan=2 rowspan=3 class="bottom"><BR></TD>
+<TD class="col3"><BR></TD>
+</TR>
+<TR>
+<TD><BR></TD>
+<TD class="col3"><BR></TD>
+</TR>
+<TR>
+<TD class="bottom"><BR></TD>
+<TD class="col3 bottom"><BR></TD>
+</TR>
+</TABLE>
+<p>野崎研究室とは全体輪講を一緒に行っています。さらに西研究室とはSUM合宿等で密接な協力関係にあります。春学期は毎週水曜日の輪講に向けて勉強や発表準備をします。
+秋学期になると、卒業研究に本格的に取り組みはじめます。研究室はフレックスタイム制です。
+</p>
+</div>
+</div>
+
+<div class="list-column">
+<div class="schedule">
+<h4>M1・M2の一年間</h4>
+1人当たり年2・3回、英語で発表を行う中間報告会があります。これは、野崎研と合同で行い、SUM（サム）といいます。これ以外に適宜先生とのディスカッションなどを行って研究を進めていきます。また、後輩への指導や大学院の授業があり、国内・国際学会へ投稿する論文作成なども行います。
+</div>
+</div>
+</div>
+
+<!---------------------------　年間スケジュール　終わり　-------------------------->
+
+</section>
+
+</div>
+<!--/.inner-->
+
+</div>
+<!--/#contents-->
+
+<!---------------------------　フッターメニュー　読み込み　-------------------------->
+<!--　デザイン変更は　style.css から，　メニュー内容やリンク先の変更は　include_footermenu.js　から　-->
+<script src="js/include_footermenu.js"></script>
+<div id="inc_footermenu"></div> 
+<!---------------------------　フッターメニュー　終わり　-------------------------->
+
+</div>
+<!--/#container-->
+
+<p class="nav-fix-pos-pagetop"><a href="#">↑</a></p>
+
+<!--メニュー開閉ボタン-->
+<div id="menubar_hdr" class="close"></div>
+
+<!--メニューの開閉処理-->
+<script>
+open_close("menubar_hdr", "menubar-s");
+</script>
+
+<!--「WORKS」の子メニュー-->
+<script>
+	open_close("menubar_hdr2", "menubar-s2");
+	open_close("menubar_hdr3", "menubar-s3");
+</script>
+<script>
+
+</script>
+</body>
+</html>
