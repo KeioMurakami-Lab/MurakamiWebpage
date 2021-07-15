@@ -1333,10 +1333,15 @@ body {
 	content: "題目　";
 	white-space: nowrap;
 	vertical-align:center;
+	width:10%;
+
 }
 
-.thesis_list .accordion_one tr p{
+.thesis_list .accordion_one p{
 	text-align:right;
+}
+.thesis_list .accordion_one .person td{
+	width:90%;
 }
 /*メンバーリストのページ内リンク
 ---------------------------------------------------------------------------*/
