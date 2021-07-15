@@ -3,15 +3,17 @@
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>企業・ビジネスサイト向け 無料ホームページテンプレート tp_biz55</title>
+<title>KEIO Murakami Lab. 404</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="ここにサイト説明を入れます">
-<meta name="keywords" content="キーワード１,キーワード２,キーワード３,キーワード４,キーワード５">
+<meta name="description" content="慶應義塾大学 村上俊之研究室 404">
+<meta name="keywords" content="">
 <link rel="stylesheet" href="css/style.css">
 <script src="js/openclose.js"></script>
 <script src="js/fixmenu.js"></script>
 <script src="js/fixmenu_pagetop.js"></script>
 <script src="js/ddmenu_min.js"></script>
+<script src="js/sidemenu_view.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
 <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -21,48 +23,26 @@
 <body>
 
 <div id="container">
-
+<!---------------------------　ヘッダー　始まり　-------------------------->
 <header>
-<h1 id="logo"><a href="index.html"><img src="images/logo.png" alt="SAMPLE COMPANY"></a></h1>
+<script src="js/include_headerlogo.js"></script>
+<div id="inc_headerlogo"></div> <!--　ヘッダーロゴ画像の変更は　include_headerlogo.js　から-->
 </header>
+<!---------------------------　ヘッダー　終わり　-------------------------->
 
-<!--PC用（801px以上端末）メニュー-->
-<nav id="menubar" class="nav-fix-pos">
-<ul class="inner">
-<li><a href="index.html">HOME<span>ホーム</span></a></li>
-<li><a href="about.html">ABOUT<span>当サイトについて</span></a></li>
-<li><a href="javascript:void(0)" class="cursor-default">WORKS<span>業務内容</span></a>
-	<ul class="ddmenu">
-	<li><a href="works.html">メニュー</a></li>
-	<li><a href="works.html">メニュー</a></li>
-	<li><a href="works.html">メニュー</a></li>
-	<li><a href="works.html">メニュー</a></li>
-	<li><a href="works.html">メニュー</a></li>
-	</ul>
-</li>
-<li><a href="recruit.html">RECRUIT<span>採用情報</span></a></li>
-<li><a href="contact.html">CONTACT<span>お問い合わせ</span></a></li>
-</ul>
-</nav>
+<!---------------------------　メニューバー　読み込み　-------------------------->
+<!--　デザイン変更は　style.css から，　メニュー内容の変更は　include_headermenu.js　から -->
+<div id="inc_headermenu"></div> 
+<script src="js/include_headermenu.js"></script>
+<noscript>
+<p id="alart">
+お使いのブラウザでJavaScriptが無効なためページを正常に表示できません。<br>
+Please enable JavaScript in order to view this content, We're sorry. 
+</p>
+</noscript>
+<!---------------------------　メニューバー　終わり　-------------------------->
 
-<!--小さな端末用（800px以下端末）メニュー-->
-<nav id="menubar-s">
-<ul>
-<li><a href="index.html">HOME<span>ホーム</span></a></li>
-<li><a href="about.html">ABOUT<span>当サイトについて</span></a></li>
-<li id="menubar_hdr2" class="close">WORKS<span>業務内容</span>
-	<ul id="menubar-s2">
-	<li><a href="works.html">メニュー</a></li>
-	<li><a href="works.html">メニュー</a></li>
-	<li><a href="works.html">メニュー</a></li>
-	<li><a href="works.html">メニュー</a></li>
-	<li><a href="works.html">メニュー</a></li>
-	</ul>
-</li>
-<li><a href="recruit.html">RECRUIT<span>採用情報</span></a></li>
-<li><a href="contact.html">CONTACT<span>お問い合わせ</span></a></li>
-</ul>
-</nav>
+
 
 <div id="contents">
 
@@ -72,57 +52,19 @@
 
 <h2>お探しのページは見つかりませんでした<span>ページが削除されたかURLが変更された可能性があります</span></h2>
 
-<footer>
+</section>
 
-<div id="footermenu" class="inner">
-<ul>
-<li class="title">タイトル</li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-</ul>
-<ul>
-<li class="title">タイトル</li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-</ul>
-<ul>
-<li class="title">タイトル</li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-</ul>
-<ul>
-<li class="title">タイトル</li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-</ul>
 </div>
-<!--/#footermenu-->
+<!--/.inner-->
 
-<div id="copyright">
-<ul class="icon">
-<li><a href="#"><img src="images/icon_facebook.png" alt="Facebook"></a></li>
-<li><a href="#"><img src="images/icon_twitter.png" alt="Twitter"></a></li>
-<li><a href="#"><img src="images/icon_instagram.png" alt="Instagram"></a></li>
-<li><a href="#"><img src="images/icon_youtube.png" alt="TouTube"></a></li>
-</ul>
-<small>Copyright&copy; <a href="index.html">SAMPLE COMPANY</a> All Rights Reserved.</small>
-<span class="pr"><a href="https://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
 </div>
-<!--/#copyright-->
+<!--/#contents-->
 
-</footer>
+<!---------------------------　フッターメニュー　読み込み　-------------------------->
+<!--　デザイン変更は　style.css から，　メニュー内容やリンク先の変更は　include_footermenu.js　から　-->
+<script src="js/include_footermenu.js"></script>
+<div id="inc_footermenu"></div> 
+<!---------------------------　フッターメニュー　終わり　-------------------------->
 
 </div>
 <!--/#container-->
@@ -140,7 +82,14 @@ open_close("menubar_hdr", "menubar-s");
 <!--「WORKS」の子メニュー-->
 <script>
 	open_close("menubar_hdr2", "menubar-s2");
+	open_close("menubar_hdr3", "menubar-s3");
 </script>
+<script>
 
+</script>
 </body>
 </html>
+
+
+
+
