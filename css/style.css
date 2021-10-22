@@ -454,11 +454,6 @@ body.is-fixed-menu #menubar ul.ddmenu li a {
 	margin:1em 10% 0;
 	padding:0 0 0 1em;
 }
-/*.info2 .email{
-	padding:none;
-	margin-bottom:3em;
-	font-size:90%;
-}*/
 .info2 .email {
 	width:80%;
 	margin: 0 auto 10% auto;
@@ -478,8 +473,8 @@ body.is-fixed-menu #menubar ul.ddmenu li a {
 }
 /*説明会日程*/
 .setsumeikai {
-	font-size: 120%;	
-	width:80%;
+	font-size: 110%;	
+	width:100%;
 	margin: 0 auto 5% auto;
 	text-align: center;			/*テキストをセンタリング*/
 	border-bottom: 1px solid white;
