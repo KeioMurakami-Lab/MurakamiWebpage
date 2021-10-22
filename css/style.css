@@ -454,10 +454,16 @@ body.is-fixed-menu #menubar ul.ddmenu li a {
 	margin:1em 10% 0;
 	padding:0 0 0 1em;
 }
-.info2 .email{
+/*.info2 .email{
 	padding:none;
 	margin-bottom:3em;
 	font-size:90%;
+}*/
+.info2 .email {
+	width:80%;
+	margin: 0 auto 10% auto;
+	border-radius:2px;
+	text-align: left;			/*テキストをセンタリング*/
 }
 .btn2 a {
 	display: block;
@@ -470,6 +476,36 @@ body.is-fixed-menu #menubar ul.ddmenu li a {
 	background: #DCDACF;
 	color:#7A7A7A;
 }
+/*説明会日程*/
+.setsumeikai {
+	font-size: 120%;	
+	width:80%;
+	margin: 0 auto 5% auto;
+	text-align: center;			/*テキストをセンタリング*/
+	border-bottom: 1px solid white;
+}
+.setsumeikai caption{
+	border-bottom: 1px solid white;		/*枠線の幅、線種、色*/
+}
+.info2 a{
+	color:white;
+}
+a:hover {
+	opacity: 0.8;
+}
+/*特定の箇所を光らせる*/
+.info2 #flash-box {
+	padding: 20px;
+	background-color: #b4b096;  /* 元の背景色 */
+	transition: background-color 1s;  /* 1秒かけて背景色を元に戻す */
+	transition: color 1s;
+}
+.info2 #flash-box.highlight {
+	background-color: white;  /* ピカッてした時の背景色 */
+	color: #b4b096 !important;
+	transition-duration: 0s; /* 即座に背景色を変える */
+}
+
 /*ボタンのマウスオン時（共通）*/
 .btn2 a:hover {
 	background: #fff;	/*背景色*/
