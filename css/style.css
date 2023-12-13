@@ -1460,7 +1460,7 @@ body {
 }
 /*１つ目ブロックに表示させるテキスト*/
 .member_list .prof .accordion_header:before {
-	content: "Proffessor";
+	content: "Professor";
 }
 .member_list .doc .accordion_header:before {
 	content: "Doctor";
